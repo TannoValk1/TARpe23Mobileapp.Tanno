@@ -71,35 +71,46 @@
             ZIndex="1"
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
-            Text="MEAN"/>
+            Text="MEAN"
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="MEAN"/>
         <Button                    
             Grid.Row="2"
             Grid.Column="1"
             ZIndex="1"
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
-            Text="MOD"/>
+            Text="MOD"
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="MOD"/>
         <Button                    
             Grid.Row="2"
             Grid.Column="2"
             ZIndex="1"
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
-            Text="STD"/>
+            Text="STD"
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="STD"/>
+        
         <Button                    
             Grid.Row="2"
             Grid.Column="3"
             ZIndex="1"
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
-            Text="VAR"/>
+            Text="VAR"
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="VAR"/>
         <Button                    
             Grid.Row="2"
             Grid.Column="4"
             ZIndex="1"
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
-            Text="FACT"/>
+            Text="FACT"
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="FACT" />
         <!--Row 2-->
         <Button                    
             Grid.Row="3"
@@ -246,7 +257,7 @@
              Margin="1,0,1,0"
              Style="{StaticResource NumberButtonStyle}"
              Text="7"
-             Command="{Binding RegionOperatorButtonStyle}"
+             Command="{Binding NumberInputCommand}"
              CommandParameter="7"/>
         <Button                    
              Grid.Row="6"
@@ -255,7 +266,7 @@
              Margin="1,0,1,0"
              Style="{StaticResource NumberButtonStyle}"
              Text="8"
-             Command="{Binding RegionOperatorButtonStyle}"
+             Command="{Binding NumberInputCommand}"
              CommandParameter="8"/>
         <Button                    
              Grid.Row="6"
